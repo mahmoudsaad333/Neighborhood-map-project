@@ -47,8 +47,8 @@ var Location = function(data) {
 			self.URL = "";
 		}
 		self.street = results.location.formattedAddress[0];
-     	self.city = results.location.formattedAddress[1];
-      	self.phone = results.contact;
+		self.city = results.location.formattedAddress[1] ? results.location.formattedAddress[1] : ''      	
+		self.phone = results.contact;
       	if (typeof self.phone === 'undefined'){
 			self.phone = "";
 		} else {

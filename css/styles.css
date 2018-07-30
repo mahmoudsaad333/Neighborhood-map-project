@@ -50,3 +50,17 @@ body {
     list-style: none;
     background-color: #329ABE;
 }
+
+
+@media only screen and (max-device-width : 900px), only screen and (max-width: 900px){
+
+.app {
+	flex-direction:column;
+}
+
+
+.search-bar, .list {
+	flex-direction: row;
+	font-size: 1em;
+}
+}
