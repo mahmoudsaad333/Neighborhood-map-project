@@ -9,7 +9,9 @@ You will develop a single page application featuring a map of your neighborhood 
 - Asynchronous programming
 
 ## How to use
-Just run index.html file
+- get the app from https://midaa.github.io/Neighborhood-map-project/
+- you can search places to filter out the rest 
+- you can click on markers to get details on the selected place
 
 #### Note
 
